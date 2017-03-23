@@ -150,3 +150,24 @@ td[colspan="2"] input{
 	font-weight: normal;
 	font: 24px 'tahoma';
 }
+
+.main_nav{
+	height: 40px;
+	background: #ddd;
+}
+.main_nav a{
+	background: #aaa;
+	display: inline-block;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	transition: 0.05s;
+}
+.main_nav a:hover{
+	background: white;
+	transition: 0.05s;
+}
