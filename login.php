@@ -5,7 +5,7 @@ include '/config/debug_functions.php';
 include '/config/way_functions.php';
 
 if(isset($_SESSION["session_username"])){
-// Если уже есть сессия, значит автоматом перенаправляем на главную страницу.
+// If session exist, redirect to main page
 header("Location: /");
 }
 
