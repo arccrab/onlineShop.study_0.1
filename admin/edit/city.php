@@ -111,6 +111,7 @@ if ($_COOKIE['find']) {
 // SCRIPT END
 
 include_once '../../config/doc_head.html';
+include_once '../../include/top_nav.html';
 
 echo "<h1>Города</h1>";
 
